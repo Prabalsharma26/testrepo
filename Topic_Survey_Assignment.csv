@@ -5,3 +5,10 @@ Data Journalism,429,1081,610
 Data Visualization,1340,734,102
 Deep Learning,1263,770,136
 Machine Learning,1629,477,74
+
+import pandas as pd
+
+df = pd.read_csv('https://cocl.us/datascience_survey_data', sep=',', index_col=0)
+print('Data read into DataFrame df')  
+
+df
